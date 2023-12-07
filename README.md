@@ -117,7 +117,7 @@ Open your model's scene and attach 'AG_Locomotion' and 'AS\_\<MyCharacterName\>'
 
 In the 'Character Controller' scene, replace the X3DV_Droid entity by an entity referencing your model's scene.
 
-Set the First-Person Controller script input named 'AnimationController' to the entity that has the animation controller component in your model's scene.
+Set the First-Person Controller script input named 'AnimationController' to the entity coming from your model's scene that has the animation controller component.
 
 Enable debug lines and if needed, adjust capsule geometry so that it fits your character, and adjust the camera's local transform so that it's in front of your character's face.
 
