@@ -111,11 +111,13 @@ Open the 'AG_Locomotion' animation graph in the Animation Graph Editor.
 
 Create a new animation set in the Animation Set Editor tab and call it 'AS\_\<MyCharacterName\>'.
 
-Drag your own model's animations to match the animation set's entries (idle, walk, run, jump, etc.).
+Drag your own model's animations to match the animation set's entries (idle, walk, run, etc.).
 
 Open your model's scene and attach 'AG_Locomotion' and 'AS\_\<MyCharacterName\>' to the animation controller component.
 
-Finally, in the 'Character Controller' scene, replace the X3DV_Droid entity by an entity referencing your model's scene.
+In the 'Character Controller' scene, replace the X3DV_Droid entity by an entity referencing your model's scene.
+
+Enable debug lines and if needed, adjust capsule geometry so that it fits your character, and adjust the camera's local transform so that it's in front of your character's face.
 
 Run your application.
 
